@@ -2,10 +2,10 @@
 // Галерея
 $('.card img').click(function() {
     let src = $(this).attr('src');
-    $('.modal img').attr('src',src);
-    $('.modal').fadeIn();    
+    $('.modalCustom img').attr('src',src);
+    $('.modalCustom').fadeIn();    
 });
 $('.close').click(function() {
-    $('.modal').fadeOut();
+    $('.modalCustom').fadeOut();
 });
 

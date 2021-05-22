@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bad+Script&amp;subset=latin,cyrillic" rel="stylesheet"
         type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    
+
 
 </head>
 
@@ -22,13 +22,13 @@
     <div class="bg">
         <ul class="nav justify-content-center ">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Фотогалерея</a>
+                <a class="nav-link" href="#photo">Фотогалерея</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Место и время</a>
+                <a class="nav-link" href="#map">Место и время</a>
             </li>
         </ul>
         <div class="container">
@@ -49,7 +49,7 @@
             <div class="row ">
                 <h2 class="block-title"> Как мы познакомились? </h2>
                 <div class="col">
-                    <div class="alert alert-info" role="alert"></div>
+                    <hr>
                     <div class="block-vert-line">
                         <p>
                             Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
@@ -76,11 +76,11 @@
             </div>
         </div>
         <div class="section">
+            <a name="photo"></a>
             <div class="row">
                 <h2 class="block-title">Фотогалерея</h2>
-                <div class="alert alert-info" role="alert"></div>
+                <hr>
                 <div class="row">
-
                     <div class="col-lg-4">
                         <div class="card">
                             <img src="static/2.jpg" alt="Snow" class="card-img-top">
@@ -98,12 +98,17 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="card">
-                            <img src="static/3.jpg" alt="Snow" class="card-img-top">
+                            <img src="static/4.jpg" alt="Snow" class="card-img-top">
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="card">
-                            <img src="static/3.jpg" alt="Snow" class="card-img-top">
+                            <img src="static/5.jpg" alt="Snow" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="static/6.jpg" alt="Snow" class="card-img-top">
                         </div>
                     </div>
                 </div>
@@ -113,7 +118,7 @@
             <div class="row">
                 <h2 class="block-title">Еще информация </h2>
                 <div class="col">
-                    <div class="alert alert-info" role="alert"></div>
+                    <hr>
                     <p>Рыбный текст – это текст, выполняющий исключительно утилитарную функцию. Он не вписывается в
                         контекст
                         сайта, на котором используется, и нужен только для заполнения пространства. Зачастую такой текст
@@ -136,8 +141,8 @@
         <div class="container">
             <div class="row">
                 <h2 class="block-title">Еще информация </h2>
-
-                <div class="col-lg-6 py-5">
+                <hr>
+                <div class="col-lg-6 py-5 border border-4 border-light rounded  border-top-0 border-start-0">
                     <h2 class="text-center pb-4"> Где? </h2>
                     <div class="row">
                         <div class="col-lg-2">
@@ -151,22 +156,23 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 py-5">
+                <div
+                    class="col-lg-6 py-5 border border-4 border-light rounded  border-top-0 border-start-0 border-end-0">
                     <h2 class="text-center pb-4"> Когда? </h2>
                     <div class="row">
+                        <div class="col-lg-10">
+                            <p class="text-center">Дата: 29 июля<br>
+                                Время: 16:00 (мск)
+                            </p>
+                        </div>
                         <div class="col-lg-2">
                             <i class="bi bi-clock-history" style="font-size: 4rem; color: cornflowerblue;"></i>
                         </div>
-                        <div class="col-lg-10">
-                            <p class="text-center">29 июля<br>
-                                16:00
-                            </p>
-
-                        </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-6 py-5">
+
+                <div
+                    class="col-lg-6 py-5 border border-4 border-light rounded  border-bottom-0 border-top-0 border-start-0">
                     <h2 class="text-center pb-4"> Что взять с собой? </h2>
                     <div class="row">
                         <div class="col-lg-2">
@@ -175,11 +181,11 @@
                         <div class="col-lg-10">
                             <p class="text-center">
                             <div class="ul">
-                                <li>1. Теплая одежда</li>
-                                <li>2. Кальяны</li>
-                                <li>3. Табак для кальянов</li>
-                                <li>4. Угли для кальянов</li>
-                                <li>5. Плитки для углей</li>
+                                <li>Теплая одежда</li>
+                                <li>Кальяны</li>
+                                <li>Табак для кальянов</li>
+                                <li>Угли для кальянов</li>
+                                <li>Плитки для углей</li>
                             </div>
                             </p>
 
@@ -190,16 +196,16 @@
                 <div class="col-lg-6 py-5">
                     <h2 class="text-center pb-4"> А что с подарками? </h2>
                     <div class="row">
-                        <div class="col-lg-2">
-                            <i class="bi bi-gift" style="font-size: 4rem; color: cornflowerblue;"></i>
-                        </div>
                         <div class="col-lg-10">
                             <p class="text-center">Suspendisse enim sapien, dignissim nec eros sit amet, tincidunt
                                 lobortis
                                 ex. Nulla ullamcorper eros non condimentum varius. Aliquam et lorem tortor. Nulla lacus
                                 nisi, consequat vel vestibulum ac, dignissim vitae ligula. </p>
-
                         </div>
+                        <div class="col-lg-2">
+                            <i class="bi bi-gift" style="font-size: 4rem; color: cornflowerblue;"></i>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -207,16 +213,51 @@
 
     </div>
     <div class="container">
-        <div class="section">
+        <div class="section" >
+            <a name="map"></a>
             <div class="row">
                 <h2 class="block-title">Карта</h2>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8">
+                <hr>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-7">
                     <script type="text/javascript" charset="utf-8" async
                         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af58ad04c998d44d9d853e14cf9cbfbf35d0606746be2b1f8b09af1ffd5df0481&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
                 </div>
-                <div class="col-lg-2"></div>
-
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <h2>Как проехать? </h2>
+                    <p>
+                        Там сначала прямо потом направо поттом н алева потом прямо 2раза потом дым увидишь это кальяны
+                        значит мы там тормози
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="row">
+                <h2 class="block-title">Социальные сети</h2>
+                <hr>
+                <div class="section">
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
+                            <p> Нам будет приятно, если фото и видео с нашей свадьбы вы будете выкладывать под данным хештэгом </p>
+                           <div class="row">
+                               <div class="col-lg-3"></div>
+                               <div class="col-lg-6">
+                                <table class="table table-borderless align-middle">
+                                    <tr>
+                                        <td><img src="static/inst.png" style="height: 64px;" </td>
+                                        <td style="color: blue">#JenyaSashaWending</td>
+                                    </tr>
+                                </table>
+                               </div>
+                               <div class="col-lg-3"></div>
+                           </div>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- end container -->
@@ -224,7 +265,7 @@
 
 
 
-    <div class="modal">
+    <div class="modalCustom">
         <div class="close">X</div>
         <img src="" alt="" class="modal-content" />
     </div>
@@ -235,7 +276,7 @@
         crossorigin="anonymous"></script>
     <script src="style/js/script.js"></script>
     <footer>
-        <div class="rov">
+        <div class="row">
             <col-lg-4>
             </col-lg-4>
             <col-lg-4>
